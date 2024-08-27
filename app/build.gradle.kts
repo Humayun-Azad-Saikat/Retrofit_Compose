@@ -80,8 +80,8 @@ dependencies {
     implementation ("com.squareup.retrofit2:retrofit:$retrofit_version")
     implementation("com.squareup.retrofit2:converter-gson:$retrofit_version")
 
-    val daggerhitl_version = "2.51.1"
     //dagger hilt
+    val daggerhitl_version = "2.51.1"
     implementation("com.google.dagger:hilt-android:$daggerhitl_version")
     kapt("com.google.dagger:hilt-android-compiler:$daggerhitl_version")
 
